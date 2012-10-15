@@ -55,8 +55,29 @@ begin
 				VGA_CLK => VGA_CLK);
 -----------
 -----------  Your code goes here
+
+--CLOCK DIVIDER
+
 	PROCESS(CLOCK_50)
+	VARIABLE div: STD_LOGIC_VECTOR (7 DOWNTO 0);
 	
 	BEGIN
+	
+	IF ()
+
+--CODE	
+	PROCESS(CLOCK_50, Resetn)
+	
+	BEGIN
+		IF(Resetn = '0') THEN
+		
+			x <= "00000000";
+			y <= "0000000";
+			plot <= '1';
+			
+			
+		ELSIF ( CLOCK_50' EVENT AND CLOCK_50 = '1') THEN
+		
+			
 		
 end rtl;
